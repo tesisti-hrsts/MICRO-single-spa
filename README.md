@@ -1,10 +1,27 @@
-# single-spa
-single-spa demo
+# AngularApp
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
-## **References:**
-1. [https://single-spa.js.org/](https://single-spa.js.org/) - Single-Spa Official website
-2. [https://youtu.be/esw-kXhv7Ik](https://youtu.be/esw-kXhv7Ik) - To create a React App in Single-Spa
-3. [https://youtu.be/R0oPkxooY7A](https://youtu.be/R0oPkxooY7A) - To create an Angular App in Single-Spa
-4. [https://stackoverflow.com/questions/64842165/single-spa-generated-angular-project-is-not-working](https://stackoverflow.com/questions/64842165/single-spa-generated-angular-project-is-not-working) - To see an Angular app run independently from the full microfrontend application
-5. [https://stackoverflow.com/questions/54912232/remove-white-border-around-container-using-viewport-size](https://stackoverflow.com/questions/54912232/remove-white-border-around-container-using-viewport-size) - How to remove the default white border around containers in microfrontd application in Single-Spa
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
