@@ -1,29 +1,29 @@
 <single-spa-router>
 	<!--
 
-    This is the single-spa Layout Definition for your microfrontends.
-    See https://single-spa.js.org/docs/layout-definition/ for more information.
+		This is the single-spa Layout Definition for your microfrontends.
+		See https://single-spa.js.org/docs/layout-definition/ for more information.
 
-  -->
+	-->
 
-	<!-- Example layouts you might find helpful:
+		<!-- Example layouts you might find helpful:
 
-  <nav>
-    <application name="@org/navbar"></application>
-  </nav>
-  <route path="settings">
-    <application name="@org/settings"></application>
-  </route>
+		<nav>
+			<application name="@org/navbar"></application>
+		</nav>
+		<route path="settings">
+			<application name="@org/settings"></application>
+		</route>
 
-  -->
+	-->
 
 	<main>
 		<route default>
-			<div className='containerApp' style="display: flex;">
-				<div className='microApp' style="flex: 1;">
+			<div id='containerApp'>
+				<div id='microApp1'>
 					<application name="@react-app/react-app"></application>
 				</div>
-				<div className='microApp' style="flex: 1;">
+				<div id='microApp2'>
 					<application name="angular-app"></application>
 				</div>
 			</div>

@@ -1,0 +1,8 @@
+#containerApp {
+    display: flex;
+}
+
+#microApp1,
+#microApp2 {
+    flex: 1;
+}
