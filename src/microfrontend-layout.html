@@ -1,22 +1,66 @@
+<!--
+
+	This is the single-spa Layout Definition for your microfrontends.
+	See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+-->
+
+<!-- An alternative to the html code is the following json code:
+	{
+		"routes": [
+			{
+				"type": "route",
+				"routes": [
+					{
+						"type": "div",
+						"attrs": [
+							{
+								"name": "id",
+								"value": "containerApp"
+							}
+						],
+						"routes": [
+							{
+								"type": "div",
+								"attrs": [
+									{
+										"name": "id",
+										"value": "microApp1"
+									}
+								],
+								"routes": [
+									{
+										"type": "application",
+										"name": "@react-app/react-app"
+									}
+								]
+							},
+							{
+								"type": "div",
+								"attrs": [
+									{
+										"name": "id",
+										"value": "microApp2"
+									}
+								],
+								"routes": [
+									{
+										"type": "application",
+										"name": "angular-app"
+									}
+								]
+							}
+						]
+					}
+				],
+				"default": true
+			}
+		]
+	}
+	
+-->
+
 <single-spa-router>
-	<!--
-
-		This is the single-spa Layout Definition for your microfrontends.
-		See https://single-spa.js.org/docs/layout-definition/ for more information.
-
-	-->
-
-		<!-- Example layouts you might find helpful:
-
-		<nav>
-			<application name="@org/navbar"></application>
-		</nav>
-		<route path="settings">
-			<application name="@org/settings"></application>
-		</route>
-
-	-->
-
 	<main>
 		<route default>
 			<div id='containerApp'>
